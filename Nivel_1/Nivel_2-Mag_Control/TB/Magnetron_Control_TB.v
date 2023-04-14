@@ -1,7 +1,5 @@
 `timescale 1ns/1ps
-`include "..\\..\\Magnetron_Control.v"
-`include "..\\..\\..\\Nivel_3\\OnOff_Control.v"
-`include "..\\..\\..\\Nivel_3\\SR_Latch.v"
+`include "..\\Magnetron_Control.v"
 
 module Magnetron_Control_TB ();
     reg Nstart, Nstop, Nclear, door_clo, time_over;
@@ -52,6 +50,21 @@ module Magnetron_Control_TB ();
         #1 Nstart <= 1; Nstop <= 0; Nclear <= 1; door_clo <= 1; time_over <= 0;
         #1 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
         #2 Nstart <= 0; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
+        #1 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
+        #2 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 1;
+
+        #1 Nstart <= 0; Nstop <= 0; Nclear <= 0; door_clo <= 0; time_over <= 0;
+        #1;
+
+        // Start com porta aberta
+        #1 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
+        #1 Nstart <= 0; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
+        #1 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
+        #2 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 0; time_over <= 0;
+        #1 Nstart <= 0; Nstop <= 1; Nclear <= 1; door_clo <= 0; time_over <= 0;
+        #2 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 0; time_over <= 0;
+        #2 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
+        #1 Nstart <= 0; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
         #1 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 0;
         #2 Nstart <= 1; Nstop <= 1; Nclear <= 1; door_clo <= 1; time_over <= 1;
 
