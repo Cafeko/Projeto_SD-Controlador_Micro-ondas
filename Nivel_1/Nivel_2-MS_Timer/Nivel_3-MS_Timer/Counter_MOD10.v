@@ -10,7 +10,7 @@ module Counter_MOD10 (
         ones <= 0;    
     end
 
-    always @(posedge clock or negedge clrn or negedge loadn) 
+    always @(posedge clock or negedge clrn) 
     begin
         if (!clrn)
             ones <= 4'b0000;

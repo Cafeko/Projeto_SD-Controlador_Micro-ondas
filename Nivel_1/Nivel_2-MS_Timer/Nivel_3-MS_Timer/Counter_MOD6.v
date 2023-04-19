@@ -10,7 +10,7 @@ module Counter_MOD6 (
         tens <= 0;    
     end
 
-    always @(posedge clock or negedge clrn or negedge loadn) 
+    always @(posedge clock or negedge clrn) 
     begin
         if (!clrn)
             tens <= 4'b0000;

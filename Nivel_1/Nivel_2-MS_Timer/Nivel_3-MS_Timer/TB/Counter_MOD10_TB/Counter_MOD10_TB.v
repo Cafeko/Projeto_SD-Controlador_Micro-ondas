@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-`include "..\\..\\Counter_MOD10.v"
+`include "..\..\Counter_MOD10.v"
 
 module Counter_MOD10_TB ();
     reg load, clear, clk, enab;
@@ -44,7 +44,7 @@ module Counter_MOD10_TB ();
         #1 load <= 1; clear <= 1; clk <= 0; enab <= 0; numero <= 4'b0000;
 
         // Teste load e tc
-        #1 load <= 0; clear <= 1; clk <= 0; enab <= 0; numero <= 4'b0101;
+        #1 load <= 0; clear <= 1; clk <= 1; enab <= 0; numero <= 4'b0101;
         #1 load <= 1; clear <= 1; clk <= 0; enab <= 1; numero <= 4'b0000;
         #1 load <= 1; clear <= 1; clk <= 1; enab <= 1; numero <= 4'b0000;
         #1 load <= 1; clear <= 1; clk <= 0; enab <= 1; numero <= 4'b0000;
