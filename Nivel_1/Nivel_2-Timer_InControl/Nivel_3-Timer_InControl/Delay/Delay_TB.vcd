@@ -1,0 +1,126 @@
+$date
+	Sun Apr 23 02:29:29 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Delay_TB $end
+$var wire 1 ! tc $end
+$var reg 1 " clk $end
+$var reg 1 # clr $end
+$scope module dut $end
+$var wire 1 # clear $end
+$var wire 1 " clock $end
+$var reg 1 ! saida $end
+$var reg 3 $ valor [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 $
+0#
+0"
+0!
+$end
+#1000
+b1 $
+1"
+#2000
+0"
+#3000
+b10 $
+1"
+#4000
+0"
+#5000
+b11 $
+1"
+#6000
+0"
+#7000
+1!
+b100 $
+1"
+#8000
+0"
+#9000
+b101 $
+1"
+#10000
+0"
+#11000
+b110 $
+1"
+#12000
+0"
+#13000
+b111 $
+1"
+#14000
+0"
+#15000
+1"
+#16000
+0"
+#17000
+1"
+#18000
+0!
+b0 $
+1#
+0"
+#19000
+1"
+#20000
+0"
+#21000
+1"
+#22000
+0#
+0"
+#23000
+b1 $
+1"
+#24000
+0"
+#25000
+b10 $
+1"
+#26000
+0"
+#27000
+b11 $
+1"
+#28000
+0"
+#29000
+1!
+b100 $
+1"
+#30000
+0"
+#31000
+b101 $
+1"
+#32000
+0"
+#33000
+b110 $
+1"
+#34000
+0"
+#35000
+b111 $
+1"
+#36000
+0"
+#37000
+1"
+#38000

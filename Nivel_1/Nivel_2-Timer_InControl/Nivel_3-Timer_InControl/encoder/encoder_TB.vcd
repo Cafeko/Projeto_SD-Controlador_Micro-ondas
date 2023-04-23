@@ -1,0 +1,150 @@
+$date
+	Sun Apr 23 03:20:32 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module encoder_TB $end
+$var wire 1 ! Valid $end
+$var wire 4 " BCD [3:0] $end
+$var reg 1 # Nenable $end
+$var reg 10 $ keypad [9:0] $end
+$scope module dut $end
+$var wire 1 # enablen $end
+$var wire 1 % keypad0 $end
+$var wire 1 & keypad1 $end
+$var wire 1 ' keypad2 $end
+$var wire 1 ( keypad3 $end
+$var wire 1 ) keypad4 $end
+$var wire 1 * keypad5 $end
+$var wire 1 + keypad6 $end
+$var wire 1 , keypad7 $end
+$var wire 1 - keypad8 $end
+$var wire 1 . keypad9 $end
+$var reg 4 / BCD_out [3:0] $end
+$var reg 1 ! valid $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1111 /
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+b0 $
+1#
+b1111 "
+1!
+$end
+#1000
+0#
+#2000
+0!
+b1001 "
+b1001 /
+1.
+b1000000000 $
+#3000
+1!
+b1111 "
+b1111 /
+0.
+b0 $
+#4000
+0!
+b1000 "
+b1000 /
+1-
+b100000000 $
+#5000
+b111 "
+b111 /
+1,
+0-
+b10000000 $
+#6000
+b101 "
+b101 /
+1*
+0,
+b100000 $
+#7000
+b110 "
+b110 /
+0*
+1+
+b1000000 $
+#8000
+b100 "
+b100 /
+1)
+0+
+b10000 $
+#9000
+1!
+b1111 "
+b1111 /
+0)
+b0 $
+#10000
+0!
+b11 "
+b11 /
+1(
+b1000 $
+#11000
+b10 "
+b10 /
+1'
+0(
+b100 $
+#12000
+1!
+1#
+#13000
+b1111 "
+b1111 /
+0'
+0#
+b0 $
+#14000
+0!
+b10 "
+b10 /
+1'
+1(
+b1100 $
+#15000
+b1 "
+b1 /
+1&
+0'
+0(
+b10 $
+#16000
+b0 "
+b0 /
+1%
+0&
+b1 $
+#17000
+1!
+b1111 "
+b1111 /
+0%
+b0 $
+#18000

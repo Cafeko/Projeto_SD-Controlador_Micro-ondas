@@ -1,0 +1,73 @@
+$date
+	Sat Apr 22 15:43:24 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module SR_Latch_TB $end
+$var wire 1 ! q $end
+$var reg 1 " r $end
+$var reg 1 # s $end
+$scope module dut $end
+$var wire 1 " R $end
+$var wire 1 # S $end
+$var reg 1 $ NQ $end
+$var reg 1 ! Q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x$
+0#
+0"
+x!
+$end
+#1000
+1!
+0$
+1#
+#3000
+0#
+#6000
+1$
+0!
+1"
+#8000
+0"
+#9000
+1!
+0$
+1#
+#10000
+0#
+#14000
+0!
+1"
+1#
+#15000
+1$
+0#
+#16000
+0$
+1#
+#18000
+1!
+0"
+#19000
+0#
+#20000
+0!
+1"
+1#
+#22000
+1$
+0"
+0#
+#24000

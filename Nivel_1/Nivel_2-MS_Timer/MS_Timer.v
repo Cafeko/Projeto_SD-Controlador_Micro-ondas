@@ -1,5 +1,5 @@
-`include "..\\Nivel_3-MS_Timer\\Counter_MOD10.v"
-`include "..\\Nivel_3-MS_Timer\\Counter_MOD6.v"
+`include "Nivel_3-MS_Timer\\Counter_MOD10\\Counter_MOD10.v"
+`include "Nivel_3-MS_Timer\\Counter_MOD6\\Counter_MOD6.v"
 
 module MS_Timer(
     input [3:0] data,
