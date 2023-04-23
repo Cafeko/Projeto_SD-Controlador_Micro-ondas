@@ -1,0 +1,6 @@
+cd Nivel_1
+iverilog -o Microwave_Controller_TB.vvp Microwave_Controller_TB.v
+vvp Microwave_Controller_TB.vvp
+
+cd Nivel_1
+gtkwave Microwave_Controller_TB.vcd

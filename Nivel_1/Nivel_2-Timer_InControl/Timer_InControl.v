@@ -1,7 +1,7 @@
-`include "Nivel_3-Timer_InControl\\Counter_100\\Counter_100.v"
-`include "Nivel_3-Timer_InControl\\Delay\\Delay.v"
-`include "Nivel_3-Timer_InControl\\encoder\\encoder.v"
-`include "Nivel_3-Timer_InControl\\MUX_2to1\\MUX_2to1.v"
+`include "Nivel_2-Timer_InControl\\Nivel_3-Timer_InControl\\Counter_100\\Counter_100.v"
+`include "Nivel_2-Timer_InControl\\Nivel_3-Timer_InControl\\Delay\\Delay.v"
+`include "Nivel_2-Timer_InControl\\Nivel_3-Timer_InControl\\encoder\\encoder.v"
+`include "Nivel_2-Timer_InControl\\Nivel_3-Timer_InControl\\MUX_2to1\\MUX_2to1.v"
 
 module Timer_InControl (
     input keypad0, keypad1, keypad2, keypad3, keypad4, keypad5,

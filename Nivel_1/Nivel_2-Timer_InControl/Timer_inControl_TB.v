@@ -33,9 +33,10 @@ module Timer_InControl_TB ();
         #1 keypad = 10'b0010000000;
         #1 keypad = 10'b0010000000;
         #1 keypad = 10'b0010000000;
-        #1;
-        #1;
-        #1;
+        #1 keypad = 10'b0010000000; Nenable = 1;
+        #1 keypad = 10'b0010000000; Nenable = 1;
+        #1 keypad = 10'b0010000000; Nenable = 1;
+        #1 keypad = 10'b0010000000; Nenable = 1;
 
         #1;
         $stop;

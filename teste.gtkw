@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sun Apr 23 21:38:01 2023
+[*]
+[dumpfile] "C:\Users\caiof\Documents\Meus\_Estudos_\Faculdade\UFPE\2022.2\SISTEMAS DIGITAIS\Atividades\Projeto\Projeto - Terceira Parte\P3 - Arquivos\Projeto_SD-Controlador_Micro-ondas\Microwave_Controller_TB.vcd"
+[savefile] "C:\Users\caiof\Documents\Meus\_Estudos_\Faculdade\UFPE\2022.2\SISTEMAS DIGITAIS\Atividades\Projeto\Projeto - Terceira Parte\P3 - Arquivos\Projeto_SD-Controlador_Micro-ondas\teste.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-17.226673 52757400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Microwave_Controller_TB.
+[treeopen] Microwave_Controller_TB.dut.
+[sst_width] 197
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 300
+@28
+Microwave_Controller_TB.keypad[9:0]
+[color] 2
+Microwave_Controller_TB.startn
+[color] 2
+Microwave_Controller_TB.stopn
+[color] 2
+Microwave_Controller_TB.clearn
+[color] 2
+Microwave_Controller_TB.door_closed
+Microwave_Controller_TB.clock
+@24
+[color] 1
+Microwave_Controller_TB.dut.timer_counter.mins[3:0]
+[color] 1
+Microwave_Controller_TB.dut.timer_counter.sec_tens[3:0]
+[color] 1
+Microwave_Controller_TB.dut.timer_counter.sec_ones[3:0]
+@28
+Microwave_Controller_TB.mag_on
+Microwave_Controller_TB.mins_seg[6:0]
+Microwave_Controller_TB.sec_tens_seg[6:0]
+@29
+Microwave_Controller_TB.sec_ones_seg[6:0]
+[pattern_trace] 1
+[pattern_trace] 0
